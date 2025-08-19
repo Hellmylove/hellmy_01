@@ -1,0 +1,29 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/.idea
+/.vscode
+Homestead.yaml
+Homestead.json
+.env
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Laravel specific
+/public/storage
+/public/hot
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Composer & NPM
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS generated files
+.DS_Store
+Thumbs.db
